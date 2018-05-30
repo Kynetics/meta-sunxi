@@ -19,6 +19,7 @@ DEFAULT_PREFERENCE_sun50i="1"
 SRC_URI = "git://git.denx.de/u-boot.git;branch=master \
            file://u-boot-pylibfdt-native-build.patch \
            file://boot.cmd \
+           file://0001-Add-support-for-H3-variant-of-Orange-Pi-Zero-Plus-2.patch \
            "
 
 SRCREV = "c253573f3e269fd9a24ee6684d87dd91106018a5"
