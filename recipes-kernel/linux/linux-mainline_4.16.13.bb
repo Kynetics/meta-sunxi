@@ -24,5 +24,6 @@ SRC_URI[sha256sum] = "6f0a7b3abd48eca3df5e29bfbcfc1c06dd2792f86d23cdb9ad37cf3e57
 
 SRC_URI = "https://www.kernel.org/pub/linux/kernel/v4.x/linux-${PV}.tar.xz \
         file://0003-ARM-dts-nanopi-neo-air-Add-WiFi-eMMC.patch \
+        file://0001-ARM-dts-sun8i-Add-dts-file-for-OrangePi-Zero-Plus-2-.patch \
         file://defconfig \
         "
