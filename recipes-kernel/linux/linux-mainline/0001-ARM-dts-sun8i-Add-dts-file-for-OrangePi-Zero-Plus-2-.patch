@@ -1,7 +1,7 @@
 From a5f4310552980992fa4d8a364f609bdea66179f9 Mon Sep 17 00:00:00 2001
 From: Diego Rondini <diego.rondini@kynetics.com>
 Date: Wed, 30 May 2018 15:05:13 +0200
-Subject: [PATCH] ARM: dts: sun8i: Add dts file for OrangePi Zero Plus 2 H3
+Subject: [PATCH 1/2] ARM: dts: sun8i: Add dts file for OrangePi Zero Plus 2 H3
 
 Upstream-status: Pending
 
@@ -218,5 +218,5 @@ index 000000000000..431c5e1e8b3f
 +	usb0_id_det-gpios = <&pio 6 12 GPIO_ACTIVE_HIGH>; /* PG12 */
 +};
 -- 
-2.17.0
+2.17.1
 

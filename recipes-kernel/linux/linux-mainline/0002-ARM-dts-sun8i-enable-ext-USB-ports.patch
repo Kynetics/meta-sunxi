@@ -1,0 +1,34 @@
+From d303fe01e86f712838f015f3294b2e29b8d34eb7 Mon Sep 17 00:00:00 2001
+From: Diego Rondini <diego.rondini@kynetics.com>
+Date: Tue, 5 Jun 2018 16:30:08 +0200
+Subject: [PATCH 2/2] ARM: dts: sun8i: enable ext USB ports
+
+Upstream-status: Pending
+
+Signed-off-by: Diego Rondini <diego.rondini@kynetics.com>
+---
+ arch/arm/boot/dts/sun8i-h3-orangepi-zeroplus2.dts | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/arch/arm/boot/dts/sun8i-h3-orangepi-zeroplus2.dts b/arch/arm/boot/dts/sun8i-h3-orangepi-zeroplus2.dts
+index 431c5e1e8b3f..807a756aac0e 100644
+--- a/arch/arm/boot/dts/sun8i-h3-orangepi-zeroplus2.dts
++++ b/arch/arm/boot/dts/sun8i-h3-orangepi-zeroplus2.dts
+@@ -94,6 +94,14 @@
+ 	status = "okay";
+ };
+ 
++&ehci2 {
++	status = "okay";
++};
++
++&ehci3 {
++	status = "okay";
++};
++
+ &mmc0 {
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&mmc0_pins_a>;
+-- 
+2.17.1
+
